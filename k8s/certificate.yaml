@@ -14,7 +14,7 @@ spec:
   acme:
     config:
       - http01:
-        ingressClass: nginx
-      domains:
-        - surfza.com
-        - www.surfza.com
+          ingressClass: nginx
+        domains:
+          - surfza.com
+          - www.surfza.com
